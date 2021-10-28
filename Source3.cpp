@@ -39,9 +39,9 @@ public:
 		cout << year << endl;
 	}
 	Day(int nday=1, int nmonth=1, int nyear=2021) : day(nday), month(nmonth), year(nyear) {
-		if (nday > 30)
+		if (nday > 30 || nday < 1)
 			day = 1;
-		if (nmonth > 12)
+		if (nmonth > 12 || nmonth < 1)
 			month = 1;
 	}
 };
@@ -76,7 +76,7 @@ public:
 			cout << minute << endl;
 	}
 	Time(int nhour=0, int nminute=0, int nday=1, int nmonth=1, int nyear=2021) : hour(nhour), minute(nminute), Day(nday, nmonth, nyear) {
-		if (nhour > 25)
+		if (nhour > 23)
 			hour = 0;
 		if (nminute > 59)
 			minute = 0;
@@ -91,5 +91,4 @@ void main() {
 			super.time();
 		}
 	}
-
 }
