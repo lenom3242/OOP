@@ -45,7 +45,7 @@ public:
 			month = 1;
 	}
 };
-class Time: public Day {
+class Time: private Day {
 	int hour, minute;
 public:
 	void incHour() {

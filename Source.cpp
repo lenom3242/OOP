@@ -43,8 +43,8 @@
 //	int returnshirina() {
 //		return shirina;
 //	}
-//	void vivodinformacii2() {
-//		vivodinformacii();
+//	void vivodinformacii() {
+//		GeomFigure::vivodinformacii();
 //		cout <<"Rectangle information: " << getid() << " " << dlina << " " << shirina << endl;
 //	}
 //	int ploshad() {
@@ -66,8 +66,8 @@
 //	int getradius() {
 //		return radius;
 //	}
-//	void information3() {
-//		vivodinformacii();
+//	void vivodinformacii() {
+//		GeomFigure::vivodinformacii();
 //		cout << getid() << " " << getradius() << endl;
 //	}
 //	int ploshadkruga() {
@@ -87,7 +87,7 @@
 //	first.sety(1);
 //	cout << "Ploshad " <<  first.ploshad() << endl;
 //	cout << "Perimetr " << first.perimetr() << endl;
-//	first.vivodinformacii2();
+//	first.vivodinformacii();
 //	Circle* p_circle = new Circle();
 //	p_circle->setx(1);
 //	p_circle->sety(1);

@@ -41,8 +41,8 @@
 //	int returnshirina() {
 //		return shirina;
 //	}
-//	void vivodinformacii2() {
-//		vivodinformacii();
+//	void vivodinformacii() {
+//		GeomFigure::vivodinformacii();
 //		cout << "Rectangle information: " << getid() << " " << dlina << " " << shirina << endl;
 //	}
 //	int ploshad() {
@@ -66,8 +66,8 @@
 //	int getradius() {
 //		return radius;
 //	}
-//	void information3() {
-//		vivodinformacii();
+//	void vivodinformacii() {
+//		GeomFigure::vivodinformacii();
 //		cout << getid() << " " << getradius() << endl;
 //	}
 //	int ploshadkruga() {
@@ -92,8 +92,8 @@
 //	int geta() { return a; }
 //	int getb() { return b; }
 //	int getc() { return c; }
-//	void information4() {
-//		vivodinformacii();
+//	void vivodinformacii() {
+//		GeomFigure::vivodinformacii();
 //		cout << getid() << a << b << c << endl;
 //	}
 //	int ploshadtriangle() {
@@ -123,18 +123,18 @@
 //	p_rect->sety(5);
 //	cout << p_rect->ploshad() << endl;
 //	cout << p_rect->perimetr() << endl;
-//	p_rect->vivodinformacii2();
+//	p_rect->vivodinformacii();
 //	delete p_rect;
 //	Circle Circ(2, 9, 0);
 //	Circ.setx(-1);
 //	Circ.sety(-1);
 //	cout << "Ploshad " << Circ.ploshadkruga() << endl;
 //	cout << "Dlina " << Circ.dlinaokruzhnostri() << endl;
-//	Circ.information3();
+//	Circ.vivodinformacii();
 //	Triangle Tri(6, 9, 5, -2, 1);
 //	Tri.setx(0);
 //	Tri.sety(0);
 //	cout << "Ploshad " <<  Tri.ploshadtriangle() << endl;
 //	cout << "Ploshad " << Tri.perimetrtriangle() << endl;
-//	Tri.information4();
+//	Tri.vivodinformacii();
 //}
